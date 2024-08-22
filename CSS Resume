@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Mei Hui Ler Queena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #2980b9;
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+        .section h2 {
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+        .contact-info, .personal-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info p, .personal-info p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .skills ul, .experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .experience li {
+            margin-bottom: 10px;
+        }
+        .experience h3, .education h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #2980b9;
+        }
+        .experience h4, .education h4 {
+            margin: 0;
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        .experience p, .education p {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        .footer {
+            text-align: right;
+            font-size: 1em;
+            color: #7f8c8d;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mei Hui Ler Queena</h1>
+            <p>Junior Architect | AZ-104 Certified</p>
+        </div>
+
+        <div class="contact-info">
+            <p>Email: queenaler@gmail.com</p>
+            <p>Phone: +4917668239795</p>
+            <p>Location: Unna, Germany</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/meihuilerqueena/" target="_blank">linkedin.com/in/meihuilerqueena</a></p>
+        </div>
+
+        <div class="personal-info">
+            <h2>Personal Information</h2>
+            <p>Date of Birth: 05.03.1992, Johor</p>
+            <p>Nationality: Malaysia</p>
+            <p>Marital Status: Single</p>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <div>
+                <h3>Master of Arts: Architecture</h3>
+                <h4>01/10/2018 - 28/07/2020 | Hochschule Anhalt, Germany</h4>
+                <p>Major: Architecture, Facility Management</p>
+                <p>Overall Grade: 1.5</p>
+            </div>
+            <div>
+                <h3>Bachelor of Science: Architectural Studies</h3>
+                <h4>24/09/2012 - 18/04/2016 | Infrastructure University Kuala Lumpur, Malaysia</h4>
+                <p>Major: Architecture</p>
+                <p>Overall Grade: 3.306</p>
+            </div>
+            <div>
+                <h3>A-Levels</h3>
+                <h4>03/05/2010 - 31/12/2011 | Maktab Sultan Abu Bakar (English College), Malaysia</h4>
+                <p>Overall Grade: 2.7</p>
+            </div>
+        </div>
+
+        <div class="section experience">
+            <h2>Professional Experience</h2>
+            <div>
+                <h3>Junior Architect | Weicken Architekten</h3>
+                <h4>seit 06/04/2021 | Unna, Germany</h4>
+            </div>
+            <div>
+                <h3>Assistant Architect | Ouyang Architects</h3>
+                <h4>01/11/2016 - 31/08/2018 | Selangor, Malaysia</h4>
+            </div>
+            <div>
+                <h3>Assistant Architect | MOA Architects</h4>
+                <h4>01/02/2016 - 31/08/2016 | Kuala Lumpur, Malaysia</h4>
+            </div>
+            <div>
+                <h3>Intern | MOA Architects</h3>
+                <h4>01/11/2015 - 31/01/2016 | Kuala Lumpur, Malaysia</h4>
+            </div>
+            <div>
+                <h3>Intern, Architecture | Redd Design Office</h3>
+                <h4>02/05/2015 - 31/03/2015 | Kuala Lumpur, Malaysia</h4>
+            </div>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Language Skills: Malay (Fluent), English (Fluent), Chinese (Fluent), German (B2)</li>
+                <li>Computer Skills: HTML, CSS, JavaScript, Python, Database Management, API Development</li>
+                <li>Cloud: Azure, Infrastructure as Code, CI/CD (Back end)</li>
+                <li>Networking: HTTPS, DNS</li>
+                <li>Advanced knowledge of Adobe Photoshop, Illustrator, InDesign</li>
+                <li>Advanced knowledge of SketchUp, Lumion, Vray</li>
+                <li>Advanced knowledge of MS Office (including VBA)</li>
+                <li>Proficient in Rhinoceros 3D, Grasshopper</li>
+            </ul>
+        </div>
+        
+        <div class="section certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AZ-104: Microsoft Certified: Azure Administrator Associate</li>
+                <li><a href="https://openbadges.icobc.net/public/assertions/fEkdEJIZRNWdoBiInTtXaw" target="_blank">Certification Completed</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Unna, 22.08.2024</p>
+        </div>
+    </div>
+</body>
+</html>
+
+              
